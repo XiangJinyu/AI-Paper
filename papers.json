@@ -1,0 +1,542 @@
+[
+    {
+        "Title": "AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents",
+        "Link": "https://huggingface.co/papers/2407.18901",
+        "Upvotes": "3",
+        "Date": "2024-07-29"
+    },
+    {
+        "Title": "Floating No More: Object-Ground Reconstruction from a Single Image",
+        "Link": "https://huggingface.co/papers/2407.18914",
+        "Upvotes": "2",
+        "Date": "2024-07-29"
+    },
+    {
+        "Title": "Wolf: Captioning Everything with a World Summarization Framework",
+        "Link": "https://huggingface.co/papers/2407.18908",
+        "Upvotes": "1",
+        "Date": "2024-07-29"
+    },
+    {
+        "Title": "SHIC: Shape-Image Correspondences with no Keypoint Supervision",
+        "Link": "https://huggingface.co/papers/2407.18907",
+        "Upvotes": "1",
+        "Date": "2024-07-29"
+    },
+    {
+        "Title": "Lessons from Learning to Spin \"Pens\"",
+        "Link": "https://huggingface.co/papers/2407.18902",
+        "Upvotes": "-",
+        "Date": "2024-07-29"
+    },
+    {
+        "Title": "VSSD: Vision Mamba with Non-Casual State Space Duality",
+        "Link": "https://huggingface.co/papers/2407.18559",
+        "Upvotes": "-",
+        "Date": "2024-07-29"
+    },
+    {
+        "Title": "Diffree: Text-Guided Shape Free Object Inpainting with Diffusion Model",
+        "Link": "https://huggingface.co/papers/2407.16982",
+        "Upvotes": "33",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "LAMBDA: A Large Model Based Data Agent",
+        "Link": "https://huggingface.co/papers/2407.17535",
+        "Upvotes": "26",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents",
+        "Link": "https://huggingface.co/papers/2407.17490",
+        "Upvotes": "24",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "Very Large-Scale Multi-Agent Simulation in AgentScope",
+        "Link": "https://huggingface.co/papers/2407.17789",
+        "Upvotes": "18",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation",
+        "Link": "https://huggingface.co/papers/2407.17952",
+        "Upvotes": "17",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "Course-Correction: Safety Alignment Using Synthetic Preferences",
+        "Link": "https://huggingface.co/papers/2407.16637",
+        "Upvotes": "16",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "Data Mixture Inference: What do BPE Tokenizers Reveal about their Training Data?",
+        "Link": "https://huggingface.co/papers/2407.16607",
+        "Upvotes": "15",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "Efficient Inference of Vision Instruction-Following Models with Elastic Cache",
+        "Link": "https://huggingface.co/papers/2407.18121",
+        "Upvotes": "13",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "LKCell: Efficient Cell Nuclei Instance Segmentation with Large Convolution Kernels",
+        "Link": "https://huggingface.co/papers/2407.18054",
+        "Upvotes": "7",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "Dallah: A Dialect-Aware Multimodal Large Language Model for Arabic",
+        "Link": "https://huggingface.co/papers/2407.18129",
+        "Upvotes": "7",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "The FIGNEWS Shared Task on News Media Narratives",
+        "Link": "https://huggingface.co/papers/2407.18147",
+        "Upvotes": "6",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "Text-Driven Neural Collaborative Filtering Model for Paper Source Tracing",
+        "Link": "https://huggingface.co/papers/2407.17722",
+        "Upvotes": "3",
+        "Date": "2024-07-28"
+    },
+    {
+        "Title": "Diffree: Text-Guided Shape Free Object Inpainting with Diffusion Model",
+        "Link": "https://huggingface.co/papers/2407.16982",
+        "Upvotes": "33",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "LAMBDA: A Large Model Based Data Agent",
+        "Link": "https://huggingface.co/papers/2407.17535",
+        "Upvotes": "26",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents",
+        "Link": "https://huggingface.co/papers/2407.17490",
+        "Upvotes": "24",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "Very Large-Scale Multi-Agent Simulation in AgentScope",
+        "Link": "https://huggingface.co/papers/2407.17789",
+        "Upvotes": "18",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation",
+        "Link": "https://huggingface.co/papers/2407.17952",
+        "Upvotes": "17",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "Course-Correction: Safety Alignment Using Synthetic Preferences",
+        "Link": "https://huggingface.co/papers/2407.16637",
+        "Upvotes": "16",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "Data Mixture Inference: What do BPE Tokenizers Reveal about their Training Data?",
+        "Link": "https://huggingface.co/papers/2407.16607",
+        "Upvotes": "15",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "Efficient Inference of Vision Instruction-Following Models with Elastic Cache",
+        "Link": "https://huggingface.co/papers/2407.18121",
+        "Upvotes": "13",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "LKCell: Efficient Cell Nuclei Instance Segmentation with Large Convolution Kernels",
+        "Link": "https://huggingface.co/papers/2407.18054",
+        "Upvotes": "7",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "Dallah: A Dialect-Aware Multimodal Large Language Model for Arabic",
+        "Link": "https://huggingface.co/papers/2407.18129",
+        "Upvotes": "7",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "The FIGNEWS Shared Task on News Media Narratives",
+        "Link": "https://huggingface.co/papers/2407.18147",
+        "Upvotes": "6",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "Text-Driven Neural Collaborative Filtering Model for Paper Source Tracing",
+        "Link": "https://huggingface.co/papers/2407.17722",
+        "Upvotes": "3",
+        "Date": "2024-07-27"
+    },
+    {
+        "Title": "Diffree: Text-Guided Shape Free Object Inpainting with Diffusion Model",
+        "Link": "https://huggingface.co/papers/2407.16982",
+        "Upvotes": "33",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "LAMBDA: A Large Model Based Data Agent",
+        "Link": "https://huggingface.co/papers/2407.17535",
+        "Upvotes": "26",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "AMEX: Android Multi-annotation Expo Dataset for Mobile GUI Agents",
+        "Link": "https://huggingface.co/papers/2407.17490",
+        "Upvotes": "24",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "Very Large-Scale Multi-Agent Simulation in AgentScope",
+        "Link": "https://huggingface.co/papers/2407.17789",
+        "Upvotes": "18",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "BetterDepth: Plug-and-Play Diffusion Refiner for Zero-Shot Monocular Depth Estimation",
+        "Link": "https://huggingface.co/papers/2407.17952",
+        "Upvotes": "17",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "Course-Correction: Safety Alignment Using Synthetic Preferences",
+        "Link": "https://huggingface.co/papers/2407.16637",
+        "Upvotes": "16",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "Data Mixture Inference: What do BPE Tokenizers Reveal about their Training Data?",
+        "Link": "https://huggingface.co/papers/2407.16607",
+        "Upvotes": "15",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "Efficient Inference of Vision Instruction-Following Models with Elastic Cache",
+        "Link": "https://huggingface.co/papers/2407.18121",
+        "Upvotes": "13",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "LKCell: Efficient Cell Nuclei Instance Segmentation with Large Convolution Kernels",
+        "Link": "https://huggingface.co/papers/2407.18054",
+        "Upvotes": "7",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "Dallah: A Dialect-Aware Multimodal Large Language Model for Arabic",
+        "Link": "https://huggingface.co/papers/2407.18129",
+        "Upvotes": "7",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "The FIGNEWS Shared Task on News Media Narratives",
+        "Link": "https://huggingface.co/papers/2407.18147",
+        "Upvotes": "6",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "Text-Driven Neural Collaborative Filtering Model for Paper Source Tracing",
+        "Link": "https://huggingface.co/papers/2407.17722",
+        "Upvotes": "3",
+        "Date": "2024-07-26"
+    },
+    {
+        "Title": "OpenDevin: An Open Platform for AI Software Developers as Generalist Agents",
+        "Link": "https://huggingface.co/papers/2407.16741",
+        "Upvotes": "56",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "$VILA^2$: VILA Augmented VILA",
+        "Link": "https://huggingface.co/papers/2407.17453",
+        "Upvotes": "33",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "HumanVid: Demystifying Training Data for Camera-controllable Human Image Animation",
+        "Link": "https://huggingface.co/papers/2407.17438",
+        "Upvotes": "19",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "DDK: Distilling Domain Knowledge for Efficient Large Language Models",
+        "Link": "https://huggingface.co/papers/2407.16154",
+        "Upvotes": "16",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "PERSONA: A Reproducible Testbed for Pluralistic Alignment",
+        "Link": "https://huggingface.co/papers/2407.17387",
+        "Upvotes": "15",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "Longhorn: State Space Models are Amortized Online Learners",
+        "Link": "https://huggingface.co/papers/2407.14207",
+        "Upvotes": "14",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "SV4D: Dynamic 3D Content Generation with Multi-Frame and Multi-View Consistency",
+        "Link": "https://huggingface.co/papers/2407.17470",
+        "Upvotes": "12",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "Learning to Manipulate Anywhere: A Visual Generalizable Framework For Reinforcement Learning",
+        "Link": "https://huggingface.co/papers/2407.15815",
+        "Upvotes": "10",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "ViPer: Visual Personalization of Generative Models via Individual Preference Learning",
+        "Link": "https://huggingface.co/papers/2407.17365",
+        "Upvotes": "10",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "MOMAland: A Set of Benchmarks for Multi-Objective Multi-Agent Reinforcement Learning",
+        "Link": "https://huggingface.co/papers/2407.16312",
+        "Upvotes": "9",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "Scalify: scale propagation for efficient low-precision LLM training",
+        "Link": "https://huggingface.co/papers/2407.17353",
+        "Upvotes": "9",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "DistilDIRE: A Small, Fast, Cheap and Lightweight Diffusion Synthesized Deepfake Detection",
+        "Link": "https://huggingface.co/papers/2406.00856",
+        "Upvotes": "8",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "DreamCar: Leveraging Car-specific Prior for in-the-wild 3D Car Reconstruction",
+        "Link": "https://huggingface.co/papers/2407.16988",
+        "Upvotes": "6",
+        "Date": "2024-07-25"
+    },
+    {
+        "Title": "CoD, Towards an Interpretable Medical Agent using Chain of Diagnosis",
+        "Link": "https://huggingface.co/papers/2407.13301",
+        "Upvotes": "52",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "KAN or MLP: A Fairer Comparison",
+        "Link": "https://huggingface.co/papers/2407.16674",
+        "Upvotes": "34",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "MovieDreamer: Hierarchical Generation for Coherent Long Visual Sequence",
+        "Link": "https://huggingface.co/papers/2407.16655",
+        "Upvotes": "25",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "T2V-CompBench: A Comprehensive Benchmark for Compositional Text-to-video Generation",
+        "Link": "https://huggingface.co/papers/2407.14505",
+        "Upvotes": "21",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "OutfitAnyone: Ultra-high Quality Virtual Try-On for Any Clothing and Any Person",
+        "Link": "https://huggingface.co/papers/2407.16224",
+        "Upvotes": "20",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "INF-LLaVA: Dual-perspective Perception for High-Resolution Multimodal Large Language Model",
+        "Link": "https://huggingface.co/papers/2407.16198",
+        "Upvotes": "12",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "F-HOI: Toward Fine-grained Semantic-Aligned 3D Human-Object Interactions",
+        "Link": "https://huggingface.co/papers/2407.12435",
+        "Upvotes": "10",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "A Simulation Benchmark for Autonomous Racing with Large-Scale Human Data",
+        "Link": "https://huggingface.co/papers/2407.16680",
+        "Upvotes": "9",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "SIGMA: Sinkhorn-Guided Masked Video Modeling",
+        "Link": "https://huggingface.co/papers/2407.15447",
+        "Upvotes": "5",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "PrimeGuard: Safe and Helpful LLMs through Tuning-Free Routing",
+        "Link": "https://huggingface.co/papers/2407.16318",
+        "Upvotes": "4",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "Cross Anything: General Quadruped Robot Navigation through Complex Terrains",
+        "Link": "https://huggingface.co/papers/2407.16412",
+        "Upvotes": "3",
+        "Date": "2024-07-24"
+    },
+    {
+        "Title": "SlowFast-LLaVA: A Strong Training-Free Baseline for Video Large Language Models",
+        "Link": "https://huggingface.co/papers/2407.15841",
+        "Upvotes": "32",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "NNsight and NDIF: Democratizing Access to Foundation Model Internals",
+        "Link": "https://huggingface.co/papers/2407.14561",
+        "Upvotes": "32",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Knowledge Mechanisms in Large Language Models: A Survey and Perspective",
+        "Link": "https://huggingface.co/papers/2407.15017",
+        "Upvotes": "31",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Compact Language Models via Pruning and Knowledge Distillation",
+        "Link": "https://huggingface.co/papers/2407.14679",
+        "Upvotes": "29",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "POGEMA: A Benchmark Platform for Cooperative Multi-Agent Navigation",
+        "Link": "https://huggingface.co/papers/2407.14931",
+        "Upvotes": "18",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "VideoGameBunny: Towards vision assistants for video games",
+        "Link": "https://huggingface.co/papers/2407.15295",
+        "Upvotes": "18",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "LongVideoBench: A Benchmark for Long-context Interleaved Video-Language Understanding",
+        "Link": "https://huggingface.co/papers/2407.15754",
+        "Upvotes": "16",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "BoostMVSNeRFs: Boosting MVS-based NeRFs to Generalizable View Synthesis in Large-scale Scenes",
+        "Link": "https://huggingface.co/papers/2407.15848",
+        "Upvotes": "15",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "BOND: Aligning LLMs with Best-of-N Distillation",
+        "Link": "https://huggingface.co/papers/2407.14622",
+        "Upvotes": "11",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Consent in Crisis: The Rapid Decline of the AI Data Commons",
+        "Link": "https://huggingface.co/papers/2407.14933",
+        "Upvotes": "9",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Artist: Aesthetically Controllable Text-Driven Stylization without Training",
+        "Link": "https://huggingface.co/papers/2407.15842",
+        "Upvotes": "9",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Cinemo: Consistent and Controllable Image Animation with Motion Diffusion Models",
+        "Link": "https://huggingface.co/papers/2407.15642",
+        "Upvotes": "9",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "HoloDreamer: Holistic 3D Panoramic World Generation from Text Descriptions",
+        "Link": "https://huggingface.co/papers/2407.15187",
+        "Upvotes": "9",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "AssistantBench: Can Web Agents Solve Realistic and Time-Consuming Tasks?",
+        "Link": "https://huggingface.co/papers/2407.15711",
+        "Upvotes": "7",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "MusiConGen: Rhythm and Chord Control for Transformer-Based Text-to-Music Generation",
+        "Link": "https://huggingface.co/papers/2407.15060",
+        "Upvotes": "7",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Conditioned Language Policy: A General Framework for Steerable Multi-Objective Finetuning",
+        "Link": "https://huggingface.co/papers/2407.15762",
+        "Upvotes": "7",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "CGB-DM: Content and Graphic Balance Layout Generation with Transformer-based Diffusion Model",
+        "Link": "https://huggingface.co/papers/2407.15233",
+        "Upvotes": "6",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "MIBench: Evaluating Multimodal Large Language Models over Multiple Images",
+        "Link": "https://huggingface.co/papers/2407.15272",
+        "Upvotes": "6",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Discrete Flow Matching",
+        "Link": "https://huggingface.co/papers/2407.15595",
+        "Upvotes": "5",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Local All-Pair Correspondence for Point Tracking",
+        "Link": "https://huggingface.co/papers/2407.15420",
+        "Upvotes": "5",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "ThermalNeRF: Thermal Radiance Fields",
+        "Link": "https://huggingface.co/papers/2407.15337",
+        "Upvotes": "5",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Temporal Residual Jacobians For Rig-free Motion Transfer",
+        "Link": "https://huggingface.co/papers/2407.14958",
+        "Upvotes": "5",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "GET-Zero: Graph Embodiment Transformer for Zero-shot Embodiment Generalization",
+        "Link": "https://huggingface.co/papers/2407.15002",
+        "Upvotes": "4",
+        "Date": "2024-07-23"
+    },
+    {
+        "Title": "Visual Haystacks: Answering Harder Questions About Sets of Images",
+        "Link": "https://huggingface.co/papers/2407.13766",
+        "Upvotes": "2",
+        "Date": "2024-07-23"
+    }
+]

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特工宇宙 x Kimi AI论文周报</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        @font-face {
+            font-family: 'DeYiHei';
+            src: url('font/SmileySans-Oblique.ttf') format('truetype');
+        }
+
+        a {
+            color: #3498db; /* 这是链接的默认颜色，您可以替换为您选择的颜色 */
+            text-decoration: none; /* 可选：移除下划线 */
+        }
+        /* 重写已访问链接的颜色，保持与默认颜色一致 */
+        a:visited {
+            color: #3498db; /* 已访问链接的颜色与默认颜色一致 */
+        }
+
+        /* 鼠标悬停时的链接颜色 */
+        a:hover {
+            color: #2980b9; /* 鼠标悬停时的颜色，您可以选择一个较深的颜色以提供视觉反馈 */
+        }
+
+        body {
+            font-family: 'Segoe UI Emoji','DeYiHei',  sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* 使用莫兰蒂配色 */
+            letter-spacing: 2px; /* 调整字间距 */
+            line-height: 2; /* 调整行间距 */
+            font-size: 1.2em;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+            color: #606c38; /* 使用莫兰蒂配色 */
+        }
+
+        .headline {
+            margin-bottom: 20px;
+            page-break-after: always; /* 在导读后添加分页 */
+        }
+
+        .headline h2 {
+            font-size: 1.5em;
+            color: #dda15e; /* 使用莫兰蒂配色 */
+        }
+
+        .headline p {
+            text-align: center;
+            white-space: pre-line;
+        }
+
+        .article {
+            font-size: 1em;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            page-break-after: always; /* 在每篇文章后添加分页 */
+            text-align: center; /* 居中 */
+        }
+
+        .article:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            page-break-after: auto; /* 最后一篇文章后不添加分页 */
+        }
+
+        .article h3 {
+            color: #bc6c25; /* 使用莫兰蒂配色 */
+        }
+
+        .article .main {
+            color: #283618; /* 使用莫兰蒂配色 */
+            text-align: left; /* 左对齐 */
+            text-indent: 2em; /* 首行缩进 2 格 */
+            white-space: pre-line;
+        }
+
+        .end {
+            color: #283618; /* 使用莫兰蒂配色 */
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20%; /* 设置为容器宽度的 20% */
+            height: auto; /* 根据比例自动调整高度 */
+        }
+        .name-card {
+            text-align: center; /* 居中显示 */
+            margin-top: 20px; /* 根据需要调整与前面内容的间距 */
+            width: none; /* 根据需要设置宽度 */
+            height: auto; /* 根据比例自动调整高度 */
+        }
+        .logo img {
+            max-width: 80%; /* 设置最大宽度为容器宽度的100% */
+            height: auto; /* 根据比例自动调整高度 */
+        }
+
+        .name-card img {
+            max-width: 100%; /* 设置最大宽度为容器宽度的100% */
+            height: auto; /* 根据比例自动调整高度 */
+        }
+
+        .table-of-contents {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+            border-bottom: 1px solid #ddd;
+            page-break-after: always; /* 在目录后添加分页 */
+        }
+
+        .toc-category {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            text-align: left; /* 左对齐 */
+        }
+
+        .toc-entry {
+            font-size: 0.8em;
+            margin-left: 20px;
+            text-indent: -1em;
+            list-style-type: none;
+            text-align: left; /* 左对齐 */
+        }
+
+        .toc-entry::before {
+            content: "• ";
+            color: #bc6c25; /* 使用莫兰蒂配色 */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="template_image/logo.jpg" alt="Logo">
+    </div>
+    <div class="container">
+        <h1>特工宇宙 x Kimi AI论文简报</h1>
+        <div class="headline">
+            <h2>{{ time }} 论文导读</h2>
+            <p>{{ summary }}</p>
+        </div>
+
+        <!-- 目录部分 -->
+        <div class="table-of-contents">
+            <h2>目录</h2>
+            <div class="toc-category">
+                1. 机器学习 (ML)
+                {% for article in articles %}
+                    {% if article.tag == 'ML' %}
+                    <div class="toc-entry">
+                        <a href="#article-{{ article.arxiv_link|e }}"><span>{{ article.title }}</span></a> ({{ article.original_title }})
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="toc-category">
+                2. 深度学习 (DL)
+                {% for article in articles %}
+                    {% if article.tag == 'DL' %}
+                    <div class="toc-entry">
+                        <a href="#article-{{ article.arxiv_link|e }}"><span>{{ article.title }}</span></a> ({{ article.original_title }})
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="toc-category">
+                3. 自然语言处理 (NLP)
+                {% for article in articles %}
+                    {% if article.tag == 'NLP' %}
+                    <div class="toc-entry">
+                        <a href="#article-{{ article.arxiv_link|e }}"><span>{{ article.title }}</span></a> ({{ article.original_title }})
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="toc-category">
+                4. 计算机视觉 (CV)
+                {% for article in articles %}
+                    {% if article.tag == 'CV' %}
+                    <div class="toc-entry">
+                        <a href="#article-{{ article.arxiv_link|e }}"><span>{{ article.title }}</span></a> ({{ article.original_title }})
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="toc-category">
+                5. 智能系统和应用 (ISA)
+                {% for article in articles %}
+                    {% if article.tag == 'ISA' %}
+                    <div class="toc-entry">
+                        <a href="#article-{{ article.arxiv_link|e }}"><span>{{ article.title }}</span></a> ({{ article.original_title }})
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- 正文部分 -->
+            <div class="toc-category">
+                <h2>机器学习 (ML)</h2>
+                {% for article in articles %}
+                    {% if article.tag == 'ML' %}
+                    <div class="article" id="article-{{ article.arxiv_link|e }}">
+                        <h3>{{ article.title }}</h3>
+                        {% if article.arxiv_link %}
+                        <p>ArXiv链接:<a href="{{ article.arxiv_link }}">{{ article.arxiv_link }}</a></p>
+                        {% endif %}
+                        {% if article.top_half_image_path %}
+                        <img src="{{ article.top_half_image_path }}" alt="Article Image">
+                        {% endif %}
+                        <div class="main">
+                            <p>{{ article.summary }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <div class="toc-category">
+                <h2>深度学习 (DL)</h2>
+                {% for article in articles %}
+                    {% if article.tag == 'DL' %}
+                    <div class="article" id="article-{{ article.arxiv_link|e }}">
+                        <h3>{{ article.title }}</h3>
+                        {% if article.arxiv_link %}
+                        <p>ArXiv链接:<a href="{{ article.arxiv_link }}">{{ article.arxiv_link }}</a></p>
+                        {% endif %}
+                        {% if article.top_half_image_path %}
+                        <img src="{{ article.top_half_image_path }}" alt="Article Image">
+                        {% endif %}
+                        <div class="main">
+                            <p>{{ article.summary }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="toc-category">
+                <h2>自然语言处理 (NLP)</h2>
+                {% for article in articles %}
+                    {% if article.tag == 'NLP' %}
+                    <div class="article" id="article-{{ article.arxiv_link|e }}">
+                        <h3>{{ article.title }}</h3>
+                        {% if article.arxiv_link %}
+                        <p>ArXiv链接:<a href="{{ article.arxiv_link }}">{{ article.arxiv_link }}</a></p>
+                        {% endif %}
+                        {% if article.top_half_image_path %}
+                        <img src="{{ article.top_half_image_path }}" alt="Article Image">
+                        {% endif %}
+                        <div class="main">
+                            <p>{{ article.summary }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="toc-category">
+                <h2>计算机视觉 (CV)</h2>
+                {% for article in articles %}
+                    {% if article.tag == 'CV' %}
+                    <div class="article" id="article-{{ article.arxiv_link|e }}">
+                        <h3>{{ article.title }}</h3>
+                        {% if article.arxiv_link %}
+                        <p>ArXiv链接:<a href="{{ article.arxiv_link }}">{{ article.arxiv_link }}</a></p>
+                        {% endif %}
+                        {% if article.top_half_image_path %}
+                        <img src="{{ article.top_half_image_path }}" alt="Article Image">
+                        {% endif %}
+                        <div class="main">
+                            <p>{{ article.summary }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="toc-category">
+                <h2>智能系统和应用 (ISA)</h2>
+                {% for article in articles %}
+                    {% if article.tag == 'ISA' %}
+                    <div class="article" id="article-{{ article.arxiv_link|e }}">
+                        <h3>{{ article.title }}</h3>
+                        {% if article.arxiv_link %}
+                        <p>ArXiv链接:<a href="{{ article.arxiv_link }}">{{ article.arxiv_link }}</a></p>
+                        {% endif %}
+                        {% if article.top_half_image_path %}
+                        <img src="{{ article.top_half_image_path }}" alt="Article Image">
+                        {% endif %}
+                        <div class="main">
+                            <p>{{ article.summary }}</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="name-card">
+        <img src="template_image/card.jpg" alt="Name Card">
+    </div>
+    <div class="end">
+        <p>论文简报Agent由“特工宇宙”搭建</p>
+        <p>加入社群获得最新论文简报及PDF版本</p>
+        <p>底层模型由月之暗面公司Kimi支持</p>
+    <div>
+</body>
+</html>

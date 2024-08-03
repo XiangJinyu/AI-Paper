@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>特工宇宙AI论文简报</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        @font-face {
+            font-family: 'DeYiHei';
+            src: url('font/SmileySans-Oblique.ttf') format('truetype');
+        }
+
+        body {
+            font-family: 'Segoe UI Emoji','DeYiHei',  sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* 使用莫兰蒂配色 */
+            letter-spacing: 2px; /* 调整字间距 */
+            line-height: 2; /* 调整行间距 */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+            color: #606c38; /* 使用莫兰蒂配色 */
+        }
+
+        .headline {
+            margin-bottom: 20px;
+        }
+
+        .headline h2 {
+            font-size: 1.5em;
+            color: #dda15e; /* 使用莫兰蒂配色 */
+        }
+
+        .headline p {
+            text-align: left;
+            white-space: pre-line;
+        }
+
+        .article {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .article:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .article h3 {
+            color: #bc6c25; /* 使用莫兰蒂配色 */
+        }
+
+        .article p {
+            color: #283618; /* 使用莫兰蒂配色 */
+        }
+
+        .end {
+            color: #283618; /* 使用莫兰蒂配色 */
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .logo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20%; /* 设置为容器宽度的 20% */
+            height: auto; /* 根据比例自动调整高度 */
+        }
+        .name-card {
+            text-align: center; /* 居中显示 */
+            margin-top: 20px; /* 根据需要调整与前面内容的间距 */
+            width: 200px; /* 根据需要设置宽度 */
+            height: auto; /* 根据比例自动调整高度 */
+        }
+        .logo img {
+            max-width: 100%; /* 设置最大宽度为容器宽度的100% */
+            height: auto; /* 根据比例自动调整高度 */
+        }
+
+        .name-card img {
+            max-width: 500%; /* 设置最大宽度为容器宽度的100% */
+            height: auto; /* 根据比例自动调整高度 */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="template_image/logo.jpg" alt="Logo">
+    </div>
+    <div class="container">
+        <h1>特工宇宙AI论文简报</h1>
+        <div class="headline">
+            <h2>{{ time }} 论文导读</h2>
+            <p>{{ summary }}</p>
+        </div>
+        {% for article in articles %}
+        <div class="article">
+            <h3>{{ article.title }}</h3>
+            {% if article.arxiv_link %}
+            <p>ArXiv链接: <a href="{{ article.arxiv_link }}">{{ article.arxiv_link }}</a></p>
+            {% endif %}
+            {% if article.top_half_image_path %}
+            <img src="{{ article.top_half_image_path }}" alt="Article Image">
+            {% endif %}
+            <p>{{ article.summary }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="name-card">
+        <img src="template_image/card.jpg" alt="Name Card">
+    </div>
+    <div class="end">
+        <p>加入社群获得每日日报及PDF版本</p>
+    <div>
+</body>
+</html>
