@@ -44,8 +44,8 @@ git clone https://github.com/isaacJinyu/AI-Papert.git
 
 然后依次执行如下步骤：
 1. 配置config.py文件，请参考config_example.py进行配置
-
 2. 运行`main.py`
+3. 你也可以在`example\`文件夹下找到我们近期的AI周报
 
 
 ### 🤗成员
@@ -58,6 +58,8 @@ git clone https://github.com/isaacJinyu/AI-Papert.git
 - 月之暗面
 - 特工宇宙学术群所有小伙伴
 
+### 邀请
+欢迎加入学术群，我们将在这里持续更新项目/定期发送AI论文周报
 
 
 <!-- links -->
